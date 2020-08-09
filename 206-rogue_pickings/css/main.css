@@ -94,7 +94,12 @@ header nav ul li a{
 	line-height: 25px;
 }
 
-
+.section-one, 
+.section-two,
+.section-three {
+	border-top: 1px solid #eee;
+	padding: 10px 0 10px 0;
+}
 .menu {
 	list-style: none;
 	padding: 0;
