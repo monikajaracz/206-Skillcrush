@@ -5,6 +5,9 @@ html {
 body {
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 	font-size: 1em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .container{
@@ -42,6 +45,10 @@ p {
 header {
 	border-bottom: 3px solid #77a466;
 	margin: 0 auto;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
 
 header h1 {
@@ -49,6 +56,9 @@ header h1 {
 	padding: 36px 0 16px 0;
 	width:90%;
 	border-bottom: 3px solid #77a466;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 header h1 span {
 	color: #77a466;
@@ -127,6 +137,7 @@ footer {
 	margin: 0 auto;
 	text-align: center;
 }
+
 footer span {
 	font-family: 'Galada', cursive;
 	text-transform: lowercase;
@@ -134,30 +145,9 @@ footer span {
 	font-size: 14px;
 }
 
-/***the flexbox starts below***/
-
-body {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-header {
-	display:flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-}
-
 nav ul {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
-}
-
-header h1 {
-	display: flex;
-	justify-content: center;
 	align-items: center;
 }
 
@@ -185,5 +175,6 @@ header h1 {
  
 @media all and (min-width:1200px) {
     /* Desktop styles here */
- 
+ 	
+ 	
 }
