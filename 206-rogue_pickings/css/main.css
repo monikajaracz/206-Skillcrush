@@ -160,3 +160,30 @@ header h1 {
 	justify-content: center;
 	align-items: center;
 }
+
+@media all and (min-width:768px) {
+    /* Tablet styles here */
+ 	
+ 	.bottom-section {
+ 		display: flex;
+ 		justify-content: center;
+ 	}
+
+ 	.section-one,
+ 	.section-two,
+ 	.section-three {
+ 		flex-basis: 33.333%;
+ 		padding:0 5% 0 5%;
+ 	}
+
+ 	.section-one,
+ 	.section-two {
+ 		border-right: 1px solid #eee;
+ 	}
+
+}
+ 
+@media all and (min-width:1200px) {
+    /* Desktop styles here */
+ 
+}
